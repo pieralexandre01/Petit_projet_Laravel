@@ -1,0 +1,77 @@
+body {
+  background-color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body main {
+  width: 1000px;
+  margin: 0 auto;
+}
+body main input[type=submit] {
+  background-color: #14213d;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  display: block;
+}
+body main .entete {
+  background-color: #14213d;
+  color: #ffffff;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 60px;
+  margin-top: 60px;
+}
+body main .fait {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+body main .fait h2 {
+  margin-top: 40px;
+}
+body main .options {
+  padding-top: 30px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+body main a {
+  background-color: #14213d;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+}
+body main .faits .fait {
+  display: flex;
+}
+body main .message {
+  background-color: #fca311;
+  width: 1000px;
+  height: 40px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body main .form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+body main .form textarea {
+  width: 600px;
+  height: 200px;
+}
+body main form {
+  display: flex;
+  flex-direction: column;
+  display: inline;
+}
+body main form .submit {
+  display: flex;
+  justify-content: flex-end;
+}/*# sourceMappingURL=style.css.map */
